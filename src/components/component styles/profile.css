@@ -1,0 +1,77 @@
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.full{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2rem;
+}
+
+.pro{
+    margin-left: -50rem;
+}
+.avatar-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.avatar-card img {
+    width: 100%;
+    height: auto;
+}
+
+.details-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.donut-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.donut-cards > * {
+    flex: 1 1 300px; /* Each donut card will take 300px width */
+    margin: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .avatar-card,
+    .details-card,
+    .donut-cards > * {
+        max-width: 100%;
+    }
+}
+
+.profile-content{
+    width: 70rem;
+    margin-left: 5rem;
+    height: 25rem;
+    margin-top: 2rem;
+    outline: none !important;
+}
+.profile-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-content > .card1 > .card-body > img{
+    width: 20rem;
+    height: 18rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.profile-content > .card2 > .card-body {
+    padding: 15px;
+    margin-top:3rem;
+}
+

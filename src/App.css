@@ -1,0 +1,155 @@
+.dash-title {
+  text-align: left;
+  margin-bottom: 3rem;
+  color: #dd0069;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* .dash{
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-color: #00365e;
+} */
+
+.dash-title > span {
+  color: #00365e;
+}
+
+.links > a {
+  margin-top: 30px;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.links > a:hover {
+  border-radius: 10px;
+  background-color: rgb(0 82 143);
+}
+
+.table1 {
+  margin-top: 5rem;
+}
+
+.table-header {
+  padding-left: 20px; /* Adjust as needed */
+}
+
+.table-cell {
+  padding-left: 20px; /* Adjust as needed */
+}
+
+.table-cell {
+  padding-left: 20px; /* Adjust as needed */
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #286090;
+}
+
+.btn-infom {
+  border: 1px solid #00365e;
+}
+
+.btn-infom:hover,
+.btn-infom:focus {
+  background-color: #00365e;
+  border: 1px solid #00365e;
+  color: #fff;
+}
+
+.table.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #dd0069; /* Change to your desired color */
+}
+
+.table.table-striped tbody tr:nth-of-type(even) {
+  background-color: #ffffff; /* Change to your desired color */
+}
+
+
+.card-top {
+  border-top: 6px solid #dd0069;
+}
+
+.table-row {
+  border-left: 5px solid #00365e;
+  border-right: 5px solid #00365e;
+}
+
+.table-head {
+  border-top: 3px solid #dd0069;
+}
+
+thead > tr > th {
+  text-align: left;
+}
+
+tbody > tr > td {
+  text-align: left;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dd0069;
+}
+
+.dash {
+  width: 80%;
+  height: 100vh;
+  margin-top: 10px;
+  margin-top: 10px;
+  border: none;
+}
+
+.side-bar {
+  width: 15%;
+  height: 85vh;
+  margin-left: 2%;
+  margin-top: 2%;
+  background-color: #00365e;
+  color: #fff;
+}
+
+label {
+  font-weight: bold;
+}
+
+h1 {
+  color : #dd0069;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.tabel{
+  margin-top: 10rem;
+}
+
+.card{
+  margin-bottom: 5rem;
+}
+
+.chart-container {
+  width: 10%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the chart */
+}
+
+/* Style the canvas element */
+.chart-container canvas {
+  background-color: #fff; /* Set background color */
+  border-radius: 8px; /* Add border radius */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.grid-container {
+  margin-top: 2.7rem;
+  margin-left: -8.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 15rem)); /* Adjust the width as needed */
+  grid-gap: 100px; /* Adjust the gap as needed */
+}

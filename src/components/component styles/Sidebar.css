@@ -1,0 +1,69 @@
+.side{
+    background: #00365e !important;
+    color: aliceblue;
+    max-height: 50rem;
+    margin-left: 2rem;
+    width: 18rem;
+    margin-top: 3rem;
+    margin-right: 1.5rem;
+    padding-top: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+
+.admin a {
+    color: white;
+    font-size: 2.3rem;
+    padding-left: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.admin:hover{
+    color: #f31b84;
+    cursor: pointer;
+}
+.card.side {
+    transition: width 0.3s ease; /* Transition the width of the sidebar */
+}
+
+.links .icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.links .icon svg {
+    width: 28px; /* Initial size of the icons */
+    height: 30px;
+    margin-right: 10px;
+}
+
+.links .icon span.text {
+    transition: opacity 0.3s ease; /* Transition the opacity of the text */
+}
+
+@media (max-width: 760px) {
+    .side {
+        width: 10rem !important; /* Adjusted width for smaller screens */
+    }
+
+    .links .icon {
+        margin-bottom: 0.5rem;
+       
+        size: 40px !important;
+        padding-left: 5px;
+    }
+
+    .links .icon span.text {
+        opacity: 0; /* Set opacity to 0 to hide the text */
+    }
+
+    .links .icon svg {
+        width: 24px; /* Icons remain at their normal size */
+        height: 24px;
+    }
+}
+
